@@ -1,0 +1,95 @@
+main {
+    background-color: hsla(214, 100%, 31%, 0.815);
+    padding: 20px 0px 30px 0px;
+}
+
+
+/* exemplo para colocar os jogos */
+
+img {
+    border-radius: 5px;
+}
+
+.jogo {
+    height: 100%;
+    margin: 10px;
+}
+
+.jogo>a>img {
+    height: 374px;
+    width: 100%;
+}
+
+p {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 22px;
+    margin: 0px 0px 30px 10px;
+}
+
+.pesquisa {
+    align-items: center;
+    display: flex;
+    width: max-content;
+}
+
+.pesquisa>img {
+    margin: 0px 5px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    padding: 0px 30px 0px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 3px;
+    margin: 20px 0px 50px 20px;
+    opacity: 0.6;
+    border-style: none;
+}
+
+
+/* global */
+
+input:focus {
+    outline: none;
+    border-bottom: red;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+#seta-esq,
+#seta-dir {
+    opacity: 0.8;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+#seta-esq:hover,
+#seta-dir:hover {
+    opacity: 1;
+    color: black;
+}
+
+.link {
+    height: 100%;
+    padding-top: 152%;
+}
+
+@media screen and ( max-width:810px) {
+    .jogo {
+        height: 240px;
+        margin: 10px;
+    }
+    .jogo>a>img {
+        height: 240px;
+        width: 100%;
+    }
+}

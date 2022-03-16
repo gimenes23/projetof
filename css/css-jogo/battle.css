@@ -1,0 +1,97 @@
+#fundo{
+background-image: url(../../imgs-index/img-jogo/battle.jpg);
+opacity: 0.9;
+background-size: cover;
+   height: 100vh;
+  
+}
+
+#degrade{
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.918) 20.13%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+#banner{
+    border-radius: 10px;
+    height: 483px;
+    width: 355px;
+}
+
+h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 60px 0px 0px 30px
+}
+
+
+#conteudo{
+    margin-top: 7%;
+   max-width: 900px;
+    display: flex;
+    height: 50%;
+  
+}
+#conteudo-p{
+    
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin: 50px 0px 0px 90px;
+}
+#conteudo-p>p{
+    
+    margin-bottom: 80px;
+}
+#donw{
+    align-items: center;
+    font-weight: 900;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 100px;
+}
+#donw>img{
+margin-left: 10px;
+}
+
+
+
+
+@media screen and (max-width:810px) {
+#banner{
+    border-radius: 10px;
+    height: 283px;
+    width: 155px;
+}
+
+
+#conteudo{
+    
+ 
+  font-size: 14px;
+   width: 50%;
+   
+    
+    
+  
+}
+#conteudo-p{
+    margin: 20px 0px 0px 20px;
+    font-size: 14px;
+    width: 100%;
+}
+#conteudo-p>p{
+    width: 180px;
+}
+/*  ARUMAR 
+ */
+#donw{
+    margin: 0px 0px 0px -100px;
+    padding: 10px;
+    
+}
+
+}

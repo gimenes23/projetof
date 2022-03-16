@@ -1,0 +1,77 @@
+main {
+    padding: 20px 0px;
+    background-color: hsla(119, 65%, 29%, 0.767);
+}
+
+
+/* exemplo para colocar os jogos */
+
+img {
+    border-radius: 5px;
+}
+
+.jogo {
+    position: relative;
+    height: 100%;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    padding: 0px 30px 0px;
+}
+
+p {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 22px;
+    margin: 0px 0px 30px 10px;
+}
+
+.pesquisa {
+    align-items: center;
+    display: flex;
+    width: max-content;
+}
+
+.pesquisa>img {
+    margin: 0px 5px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 3px;
+    margin: 20px 0px 50px 20px;
+    opacity: 0.6;
+    border-style: none;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: red;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+#seta-esq,
+#seta-dir {
+    opacity: 0.4;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+#seta-esq:hover,
+#seta-dir:hover {
+    opacity: 1;
+    color: black;
+}
+
+.link {
+    height: 100%;
+    padding-top: 152%;
+}

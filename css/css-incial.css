@@ -1,0 +1,112 @@
+
+
+#caixao{
+
+    padding: 50px;  
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    transform: rotate(45deg);
+    margin: 10% auto 0; 
+    margin-top: -100px;
+}
+
+#caixa-xbox{
+    border-color: #107C10;}
+
+    #caixa-xbox:hover{
+    background-color: #107c10a8;
+    transition: 600ms;
+    }
+
+
+#caixa-pc{
+    border-color: #E3B23C;}
+    #caixa-pc:hover{
+        background-color: #e3b13caf;
+        transition: 600ms;
+    }
+
+
+#caixa-play{
+    border-color: #145C9E;}
+    #caixa-play:hover{
+        background-color: #145b9ea1;
+        transition: 600ms;
+    }
+
+
+#caixa-nin{
+    border-color: #F25757;}
+    #caixa-nin:hover{
+        background-color: #f2575788;
+        transition: 600ms;
+    }
+
+
+
+    .caixa{
+      
+        border-width: 10px;
+        border-style: solid;
+        width: 207px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    #sessao-inicial{
+        height:100vh;
+        background-color: rgba(0, 0, 0, 0.836);
+    }
+
+    .icon-main{
+      
+        transform: rotate(-45deg);
+        margin: 6px ;
+        justify-content: center;
+        width: 165px;
+        height: 165px;
+    }
+    .play{
+        margin-left: -20px ;
+        width: 220px;
+        height: 151px;
+    }
+    .pc{
+        margin: 28px 20px 20px 34px;
+       width: 137px;
+       height: 137px;
+    }
+
+   
+
+    @media screen and (max-width: 810px) {
+        .wrapper{
+            width: 100%;
+        }
+
+        #caixao{
+            
+            width: 360px;
+        }
+        .caixa{
+            width: 102px;
+        height: 100px;
+        }
+        .icon-main{
+            width: 70px;
+        height: 65px;
+        }
+        .play{
+            margin: 10px 10px 0px -5px;
+            width: 90px;
+            height: 61px;
+        }
+        .pc{
+            margin:25px 25px;
+       width: 37px;
+       height: 37px;
+        }
+
+       
+    }
